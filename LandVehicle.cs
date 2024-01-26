@@ -11,11 +11,18 @@ namespace GA_Inheritance_Access_StephanieLopez
         //Field
         int _wheels;
 
-        //Constructor
+        public LandVehicle(string color, int wheels)
+        {
+            _wheels = wheels;
+        }
 
-
-        //Properties
+        //Property}
+        public int Wheels1 { get => _wheels; set => _wheels = value; }
 
         //Override ToString
+        public override string ToString()
+        {
+            return base.ToString() + $"Number of Wheels {_wheels}";
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace GA_Inheritance_Access_StephanieLopez
 {
     internal class AirVehicle
     {
+        public AirVehicle(string color)
+        { 
+        
+        }
     }
 }
