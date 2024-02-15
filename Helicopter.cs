@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace GA_Inheritance_Access_StephanieLopez
 {
-    internal class HelicopterAir
+    internal class Helicopter : Vehicle
     {
         //Field
         int _NumberOfPropellers;
 
         //Constructor
-        public HelicopterAir(string color, int numberOfPropellers)
+        public Helicopter(string color, int numberOfPropellers) : base(color)
         {
             _NumberOfPropellers = numberOfPropellers;
         }

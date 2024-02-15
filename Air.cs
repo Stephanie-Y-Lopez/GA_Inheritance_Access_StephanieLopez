@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GA_Inheritance_Access_StephanieLopez
 {
-    internal class AirVehicle
+    internal class Air : Vehicle
     {
-        public AirVehicle(string color)
+        public Air(string color) : base(color)
         { 
         
         }

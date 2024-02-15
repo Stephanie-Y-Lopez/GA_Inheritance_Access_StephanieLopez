@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GA_Inheritance_Access_StephanieLopez
 {
-    internal class PlaneAir
+    internal class Plane : Vehicle
     {
         int _numberOfJets;
 
         // Constructor
-        public PlaneAir(string color, int numberOfJets)
+        public Plane(string color, int numberOfJets) : base(color)
         {
             _numberOfJets = numberOfJets;
         }

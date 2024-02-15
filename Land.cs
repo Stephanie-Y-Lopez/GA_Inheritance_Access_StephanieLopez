@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GA_Inheritance_Access_StephanieLopez
 {
-    internal class LandVehicle
+    internal class Land : Vehicle
     {
         //Field
         int _wheels;
 
-        public LandVehicle(string color, int wheels)
+        public Land(string color, int wheels) : base(color)
         {
             _wheels = wheels;
         }

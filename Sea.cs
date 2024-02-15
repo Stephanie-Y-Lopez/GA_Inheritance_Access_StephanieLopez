@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace GA_Inheritance_Access_StephanieLopez
 {
-    internal class SeaVehicle
+    internal class Sea : Vehicle
     {
         //Field
         string _type;
 
         //Constructor
-        public SeaVehicle(string color, string type)
+        public Sea(string color, string type) : base(color)
         {
             _type = type;
         }
